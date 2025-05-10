@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom right, #a8e6cf, #dcedc1, #ffd3b6, #ffaaa5);
+  background-size: cover;
+  background-image: url('wallpaper.jpg'); /* optional background image */
+}
+
+.login-container {  
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  text-align: center;
+  color: #fff;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+input[type="text"], input[type="password"] {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+}
+
+.password-container {
+  position: relative;
+}
+
+.toggle-password {
+  position: absolute;
+  right: 20px;
+  top: 14px;
+  cursor: pointer;
+  color: #000;
+}
+
+.login-btn {
+  width: 95%;
+  padding: 10px;
+  background: #28d47c;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+.action-buttons button {
+  margin: 10px 5px;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: #ffb300;
+  color: black;
+}
+
+.blue {
+  background-color: #409eff;
+  color: white;
+}
+
+.contact-us {
+  margin-top: 20px;
+}
+
+.social-buttons a {
+  display: inline-block;
+  margin: 10px 5px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: white;
+  text-decoration: none;
+}
+
+.whatsapp {
+  background: rgba(63, 199, 22, 0.726);
+}
+
+.instagram {
+background: linear-gradient(to right, #f9ce34, #ee2a7b, #6228d7);
+}
