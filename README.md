@@ -1,1 +1,1 @@
-https://faiizofficial.github.io/bictgr1
+https://faiizofficial.github.io/ictgr1
